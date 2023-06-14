@@ -10,6 +10,8 @@
         "views/menu.xml",
         "views/contacts.xml",
         "views/chooseFormWizard.xml",
+        'views/menu.xml',
+        'views/adds.xml',
     ],
     'installable': True,
     'auto_install': True,

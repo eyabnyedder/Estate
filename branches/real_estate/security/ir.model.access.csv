@@ -3,3 +3,4 @@ re_user_agent,Base User,model_re_agent,base.group_user,1,1,1,1
 re_user_partner,Base User,model_re_partner,base.group_user,1,1,1,1
 re_user_chooseForm,Base User,model_choose_form_wizard,base.group_user,1,1,1,1
 re_user_reModel,Base User,model_re_model,base.group_user,1,1,1,1
+re_user,Base User,model_re_estate,base.group_user,1,1,1,1

@@ -22,5 +22,6 @@
 
     <menuitem id="re_root_menu" name="Real Estate"/>
     <menuitem id="menu_contact_root" parent="re_root_menu" name="Contacts" sequence="1" action="contact_action"/>
+    <menuitem id="re_menu_adds" parent="re_menu_root" name="Adds" action="action_re_estate" sequence="2"/>
 
 </odoo>
