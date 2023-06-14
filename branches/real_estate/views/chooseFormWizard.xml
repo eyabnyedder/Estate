@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <!-- ChooseFormWizard Form View -->
+        <record id="view_choose_form_wizard_form" model="ir.ui.view">
+            <field name="name">choose.form.wizard.form</field>
+            <field name="model">choose.form.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Choose Form" create="false">
+                    <group>
+                        <field name="form_view_type"/>
+                    </group>
+                    <footer>
+                        <button name="create_form_partner" string="Create Partner" class="btn-primary"/>
+                        <button name="create_form_agent" string="Create Agent" class="btn-primary"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

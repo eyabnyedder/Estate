@@ -8,7 +8,12 @@
         "security/ir.model.access.csv",
         "data/sequence.xml",
         "views/menu.xml",
+        "views/contacts.xml",
+        "views/chooseFormWizard.xml",
     ],
     'installable': True,
     'auto_install': True,
+    'js': [
+        "static/js/real_estate.js",
+    ]
 }
